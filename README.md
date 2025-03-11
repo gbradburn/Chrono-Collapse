@@ -1,30 +1,72 @@
-# Time Loop Tower Defense
- past versions of yourself replay your actions when the loop resets.
+# Chrono Collapse – A Time-Bending Endless Runner
+## Core Premise
+The Tower of Time is collapsing, and you, the Chrono Runner, must ascend before time itself unravels. The further you climb, the more unstable reality becomes, causing sections of the tower to break apart, time to rewind, and paradoxes to form.
 
-Gameplay Mechanics:
+---
 
-* Every loop, you record your own actions, and in the next loop, your past selves repeat those actions automatically.
-* Example: In Loop 1, you shoot arrows → In Loop 2, past-you shoots arrows while you set traps → In Loop 3, both past-yous attack while you build walls.
-* The challenge is coordinating past versions of yourself for maximum efficiency.
+## Gameplay Loop
+* Endless Climb: The tower is procedurally generated, with sections breaking apart as you ascend.
+* Temporal Hazards: Time anomalies create shifting obstacles, disappearing platforms, and time distortions.
+* Time-Bending Abilities: Players can pause, rewind, or fast-forward time in short bursts to navigate hazards.
 
-## How to Use this Project
+---
 
-1. Make sure you have Unity version 2022.3.32f1 installed
-2. Download the zip or clone the project and add the created folder to Unity Hub
+## Game Mechanics
 
-This project includes various scenes and sample scripts for loading a Genies avatar, using mobile input, and seeing how TypeScript is written.
+### Movement & Controls
+* Standard endless runner controls: Auto-run forward, with player-controlled jump, slide, and dash.
+* Time-based abilities (limited by a cooldown or energy system):
+* Time Pause: Freezes everything but the player for a brief moment.
+* Rewind: Rewinds nearby obstacles (e.g., a broken bridge restores for a moment).
+* Fast-Forward: Speeds up platforms/enemies to get past slow-moving hazards.
 
-## Notes:
-1. When opening the project in Unity, many errors and warnings will pop up in the console. These don't impact the actual project itself - you can open one of the sample scenes and play, and it should run.
-2. This project is usable without having an active Genies account - however, you won't be able to upload a build to playtest unless you are logged in.
+---
 
-## Licensing
-© 2024 Genies, Inc.
+### Tower Sections & Time Anomalies
+Each section of the tower gets progressively more unstable, introducing different time-related hazards:
 
-Genies, Inc. hereby grants you permission, free of charge and without any limitation, to use, copy, modify, merge, publish, distribute, remix, transform, build upon, sublicense, and sell this software and associated documentation, and to permit others to use the software without any restriction, subject to the following conditions:
+1. Lower Tower (Stable Time)
+ * Classic endless runner hazards: crumbling floors, spike traps, and moving platforms.
+ * Occasional minor time distortions (e.g., objects flickering in and out of existence).
+2. Mid Tower (Temporal Unrest)
+ * Platforms start reversing in time (e.g., collapsing then reforming).
+ * Enemies that loop their movements due to time anomalies.
+ * Time-based puzzles (e.g., a bridge that only exists when rewinding).
+3. Upper Tower (Time Breakdown)
+ * Reality shifts: sections rewind, loop, or skip forward randomly.
+ * Player movement speeds up/slows down unexpectedly (must compensate).
+ * Paradoxes spawn—past versions of the player appear and must be avoided.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. You may give appropriate credit, provide a link to the license, and indicate if changes were made to the software, but you must not suggest in any way that the licensor endorses you or your use of the software.
+---
 
-No warranties are given, as the software is provided “as is.” At no time shall the authors or copyright holders be liable for any claim or damages arising from or in connection with the use of this software.
+### Scoring & Progression
+* Distance-Based Score: The longer you survive, the higher your score.
+* Time Fragments: Collectable items that restore energy for time abilities.
+* Paradox Events: Surviving anomalies rewards bonus points or unlocks power-ups.
 
-By using this repository, you are agreeing to abide by our Terms of Service.
+--- 
+
+### Art & Aesthetic
+* Stylized pixel art or low-poly neon, with a fractured time theme.
+* As players ascend, the world gets glitchier (e.g., visual distortions, color shifts).
+* Tower sections randomly flicker between past, present, and future.
+---
+
+*** Music & Sound
+* Dynamic soundtrack that warps with time distortions.
+* Echoing, distorted sound effects for collapsing sections.
+* Subtle ticking sound that speeds up as collapse accelerates.
+
+---
+
+### Possible Extra Features (if time allows)
+* Boss Encounters: Time Wraiths that chase the player, forcing creative time ability use.
+* Alternate Playstyles: Different characters with unique time-based powers.
+* Endless Mode vs. Challenge Mode: Structured levels for a story mode, endless for high scores.
+
+---
+ 
+### Scope Considerations
+* Focus on polishing the core gameplay loop first: running, jumping, and time mechanics.
+* Procedural generation can be pattern-based rather than fully randomized.
+* Prioritize one or two time abilities rather than all three at first.
