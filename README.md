@@ -1,4 +1,11 @@
-# ExperienceSDKSampleProject
+# Time Loop Tower Defense
+ past versions of yourself replay your actions when the loop resets.
+
+Gameplay Mechanics:
+
+* Every loop, you record your own actions, and in the next loop, your past selves repeat those actions automatically.
+* Example: In Loop 1, you shoot arrows → In Loop 2, past-you shoots arrows while you set traps → In Loop 3, both past-yous attack while you build walls.
+* The challenge is coordinating past versions of yourself for maximum efficiency.
 
 ## How to Use this Project
 
